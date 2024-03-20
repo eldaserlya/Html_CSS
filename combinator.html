@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>belajar Simple selektor 2</title>
+    <style>
+        body {
+            background: linear-gradient(#c8ece0, #bbe8fb);
+        }
+        div p {
+            color: brown;
+        }
+        div > p {
+            background-color: palegoldenrod;
+        }
+        div + p {
+            background-color: lightgoldenrodyellow;
+        }
+        div ~ p {
+            color: darkgreen;
+        }
+        div 
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph 1.div p - selector untuk semua paragraf dalam div dan berwarna brown</p>
+        <p>This is a paragraph 2. div > p - selector untuk semua paragraf yang langsung di bawah div</p>
+    </div>
+    <p>This is a paragraph 3. div + p - selector untuk paragraf yang langsung di bawah div, jika ada</p>
+    <p>This is a paragraph 4.div ~ p - selector untuk semua paragraf yang berada di bawah div, meskipun tidak langsung</p>
+</body>
+</html>
