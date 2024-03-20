@@ -1,0 +1,18 @@
+p {
+    color: #555;
+    font-family: arial;
+    background: #c6f6a6;
+    font-size: 16pt;
+    font-weight: bold;
+}
+p.group {
+    color: rgb(127, 238, 255);
+    font-family: arial; 
+    font-size: 14pt;
+    font-weight: normal;
+    background: #0000FF;
+}
+p#one {
+    color: #86244e;
+    background: #FFFFFF;
+}
